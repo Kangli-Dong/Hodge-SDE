@@ -1,0 +1,2494 @@
+{
+  "snapshot_date": "2026-10-16",
+  "status": "LOCAL_CANDIDATE_EXACT_MAIN_CORES",
+  "public_release": false,
+  "license": null,
+  "git_commit": null,
+  "source_root": "original local project (relative paths only)",
+  "scientific_algorithms_changed": true,
+  "excluded": "subject data/tables, observations/predictions, clinical records, identifiers, private paths, atlas/font assets, unverified third-party implementations",
+  "manifest_self_hash": "Not listed to avoid self-reference; verify all other files with the companion audit.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "candidate_sha256": "4b3dba0c56832041c5c983829ce87191ff1f30f99758a79c909a427888c214dd",
+      "bytes": 264
+    },
+    {
+      "path": "demo_fitted_model.m",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [],
+      "candidate_sha256": "291e96e86a441f2d5cc9d4076d995aebe9fb43e9a4081d151d5f9206f218572a",
+      "bytes": 783
+    },
+    {
+      "path": "demo_synthetic.m",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "New candidate documentation or synthetic demonstration; no subject data."
+      ],
+      "role": "synthetic evaluation demonstration",
+      "candidate_sha256": "e6bb0d50cfa436beccc238765a695ebd4f1599c49c4d59da76d2cf268b2d5bf9",
+      "bytes": 2220
+    },
+    {
+      "path": "figures/check.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "offline synthetic/contract check or path configuration",
+      "changes": [
+        "New main-figure candidate support file; no subject rows or private identifiers.",
+        "2026-10-06: final code-package audit and current-source contract update.",
+        "2026-10-07: parameter-model inclusion, current-port documentation or small verification update; no fitted values changed."
+      ],
+      "bytes": 7249,
+      "candidate_sha256": "193a2f5229137b3983bb28d4b481da0fa09643fcb2bd953dbd79a20764213db9"
+    },
+    {
+      "path": "figures/EXACT_INPUTS.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "4059a07d89fd41944e560f6d08bbbac1f5c9cd484df91771756af8b74671c9c7",
+      "bytes": 11931
+    },
+    {
+      "path": "figures/exact_smoke.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "e8ffdeb4980eeaa747f45a6cc4773e150b5aba2ed35579ef482e035c485a645e",
+      "bytes": 7429
+    },
+    {
+      "path": "figures/fig2/core_stats.py",
+      "source": "论文图表/Fig2_布局规划_20260917/fig2_composite_v1/render_fig2_composite.py",
+      "source_sha256": "2fe052457d532172b00ce8bd6d70fc7d430228268fa9db1878c6c19c03a6eae3",
+      "selected_functions": [
+        "full_pairwise_stats",
+        "bh_fdr",
+        "paired_effect",
+        "load_subject_metrics",
+        "shared_limits",
+        "horizontal_box",
+        "method_color",
+        "find_helvetica",
+        "set_style"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig2') / 'benchmark_v1'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        "2026-10-03: round-trip CSV parsing preserves stored floating-point ties; scientific test definitions unchanged."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 8723,
+      "candidate_sha256": "12cb9593d70d793348b05436202aa1018c49e1739daaee181db384985f6e614f"
+    },
+    {
+      "path": "figures/fig2/exact_render_inputs.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "9fde936807221b3e50d873653e5a15ba1e6020eaba729301972ea6692a8d67db",
+      "bytes": 1346
+    },
+    {
+      "path": "figures/fig2/export_editable.py",
+      "source": "Paper_Figures/Fig2/v11/code/export_editable.py",
+      "source_sha256": "58fcc2d56c5085b8b23e8d93c5feef1cd4b357ec259ea995942468e88426447d",
+      "role": "package support or parameter example",
+      "changes": [
+        "Native main export uses existing package artists and figures.paths.work/font; preserves v11 layout offsets, display-name substitution, PDF/SVG objects and 300-dpi PDF raster preview. ROI mode calls a static local renderer."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v11/code/export_editable.py",
+          "sha256": "58fcc2d56c5085b8b23e8d93c5feef1cd4b357ec259ea995942468e88426447d"
+        },
+        {
+          "path": "Paper_Figures/Fig2/v8/code/render_fig2.py",
+          "sha256": "75eba2dbe3ac48c7d015f1b7e18411e8112aa8e0db3e49fb952eb47c7ad0b3a2"
+        },
+        {
+          "path": "Paper_Figures/Fig2/v10/code/render_name_only.py",
+          "sha256": "58c4ea9cc34f1e010e7a1958b889edff6dac70033f63d936bef3c812158e3872"
+        }
+      ],
+      "candidate_sha256": "7d50f135542daacaa6456352d1dbd364c470545810a4b1be307002078f8d092a",
+      "bytes": 3342
+    },
+    {
+      "path": "figures/fig2/fair_v2_protocol.m",
+      "source": "Paper_Figures/Fig2/v5_evaluation_audit/fair_v2_protocol.m",
+      "source_sha256": "63c857baf2bb80711508cbfb30f032993e5142533bc63c75f19ebc0b7be97662",
+      "role": "package support or parameter example",
+      "changes": [
+        "Retains seeded jitter, held-out masking, ROI-by-220 amplitude guard and LaGNA range/warm-up checks; accepts caller-supplied arrays and cache struct; removes private discovery and path fingerprinting."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v5_evaluation_audit/fair_v2_protocol.m",
+          "sha256": "63c857baf2bb80711508cbfb30f032993e5142533bc63c75f19ebc0b7be97662"
+        }
+      ],
+      "candidate_sha256": "46dce9badfac1960a8d51eab6b9dbcea3b3688504a4603c3771770af2888c315",
+      "bytes": 1964
+    },
+    {
+      "path": "figures/fig2/fairness_generator_core.m",
+      "source": "Paper_Figures/Fig2/v4/fairness_pilot/fairness_generator_core.m",
+      "source_sha256": "3036fbcfeb30807c1cd98c32cc7b82ba7ae4b357e00f4b0361b2951e67c23686",
+      "role": "package support or parameter example",
+      "changes": [
+        "Preserves Subspace joint Q/M/R rollout and NMM training-segment residual covariance/rollout numerics. Removes private path/source-file reads from the archived FastFun source-contract check; validates supplied parameter shape and documents the discrete formula."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v4/fairness_pilot/fairness_generator_core.m",
+          "sha256": "3036fbcfeb30807c1cd98c32cc7b82ba7ae4b357e00f4b0361b2951e67c23686"
+        }
+      ],
+      "candidate_sha256": "7731047ea5e5e1ff6eae2cacb8fcbfb9763ad2e444c9ef2803ee0d82799dd13a",
+      "bytes": 6807
+    },
+    {
+      "path": "figures/fig2/fold_inputs.py",
+      "source": "Paper_Figures/Fig2/v5_evaluation_audit/render_partial_generation.py",
+      "source_sha256": "704adc41b9237b4a4e9931895417244766da5355165d053b7d42a8fbb5310f04",
+      "selected_functions": [
+        "supported_mask",
+        "read_fold_files",
+        "sha256",
+        "discover_fold_files"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig2') / 'folds'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 3284,
+      "candidate_sha256": "d8a768cb87375f12637d2fb943c4d669aac8199e3af64aec344f3cb3786adffd"
+    },
+    {
+      "path": "figures/fig2/plot_helpers.py",
+      "source": "论文图表/Fig2_布局规划_20260917/fig2_composite_v2/render_fig2.py",
+      "source_sha256": "2c14fed0486d366a10dc3b3e3a293466acdddf0c1715ce92bcaf1997a0100207",
+      "selected_functions": [
+        "load_runtime",
+        "record_input",
+        "validate_runtime",
+        "runtime_trend",
+        "benchmark_row",
+        "label",
+        "axis",
+        "figure",
+        "load_benchmark"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig2') / 'benchmark_v2'",
+        "V1": "V1 = work('fig2') / 'benchmark_v1'",
+        "RUNTIME": "RUNTIME = work('fig2') / 'runtime'",
+        "FONT": "FONT = font()",
+        "base": "from figures.fig2 import core_stats as base"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 7629,
+      "candidate_sha256": "6ca53d55d035e1a2febbd241af230e3a3b8dcca6f4235e3cd8116062976d957a"
+    },
+    {
+      "path": "figures/fig2/README.md",
+      "source": "Paper_Figures/Fig2/v11/README.md",
+      "source_sha256": "a18256080d4eab5400f6f31750e78e28ee9030f4a7ee30784744a41dfae260a5",
+      "role": "package support or parameter example",
+      "changes": [
+        "Documents external input layout, commands, provenance, font, single-fold contract and non-distribution boundary.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v11/README.md",
+          "sha256": "a18256080d4eab5400f6f31750e78e28ee9030f4a7ee30784744a41dfae260a5"
+        },
+        {
+          "path": "Paper_Figures/Fig2/v11/code/export_editable.py",
+          "sha256": "58fcc2d56c5085b8b23e8d93c5feef1cd4b357ec259ea995942468e88426447d"
+        },
+        {
+          "path": "Paper_Figures/Fig2/v5_evaluation_audit/run_fold_scores_smoke.m",
+          "sha256": "0348a181c92ae17fcbfba1467e2bc055ac21ca287e6e4556e13dd4fb4ae15910"
+        }
+      ],
+      "candidate_sha256": "a11fcf019b1eab8b1b20950e62aae836b6d7df89f61e0d0f24e1a749de5e3f80",
+      "bytes": 5206
+    },
+    {
+      "path": "figures/fig2/refresh_generation.py",
+      "source": "Paper_Figures/Fig2/v11/code/refresh_generation.py",
+      "source_sha256": "82e08ef53deb56ce79d083a49417a765127b1cac04e2c4bf3c8719ded8409c1d",
+      "changes": [
+        "Historical PDF image-replacement helper remains for provenance; module entrypoint now dispatches to the native exporter."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 3049,
+      "candidate_sha256": "12251241ddaba2927769bfc8e006f6c849dc55fdeb0b1f77d10038ee851c45c5",
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v11/code/refresh_generation.py",
+          "sha256": "82e08ef53deb56ce79d083a49417a765127b1cac04e2c4bf3c8719ded8409c1d"
+        }
+      ]
+    },
+    {
+      "path": "figures/fig2/render_exact.py",
+      "source": "Paper_Figures/Fig2/v12/code/render_exact_fig2.py",
+      "source_sha256": "696129ac7771cea6b28648a7a44e4ca313d415a36e90bd260a7b071d099b593c",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "cd15b0b07a9a946ef7102bf8f24353aa5ce9cd53df44a51df0941e0b8d876ea6",
+      "bytes": 17732
+    },
+    {
+      "path": "figures/fig2/render_main.py",
+      "source": "Paper_Figures/Fig2/v8/code/render_fig2.py",
+      "source_sha256": "75eba2dbe3ac48c7d015f1b7e18411e8112aa8e0db3e49fb952eb47c7ad0b3a2",
+      "selected_functions": [
+        "main",
+        "overview"
+      ],
+      "overrides": {
+        "v2": "from figures.fig2 import plot_helpers as v2",
+        "v6": "from figures.fig2 import statistics as v6",
+        "base": "from figures.fig2 import core_stats as base",
+        "ROOT": "ROOT = work('fig2')",
+        "V6": "V6 = work('fig2')"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        {
+          "old": "str(path.relative_to(ROOT.parents[2]))",
+          "new": "str(path)"
+        }
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 5842,
+      "candidate_sha256": "9416aef4e3c810741b333fbefab12182c17040fea32a671c62b29a1810fbcbfb"
+    },
+    {
+      "path": "figures/fig2/reproduce_source_statistics.py",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "2026-10-03: source-table reproduction and complete-five-common-fold sensitivity; no subject data bundled."
+      ],
+      "role": "source-table verification; no subject data",
+      "bytes": 6052,
+      "candidate_sha256": "6dd0d42147e30d32c85812381fd753cf4a6c662a344f9d732c8e454787a76d7c"
+    },
+    {
+      "path": "figures/fig2/roi_editable.py",
+      "source": "Paper_Figures/Fig2/v2/code/render_si07_roi_r2.py",
+      "source_sha256": "4ce96ebef9410bb68193f7d3d7c28dcd1359dce01f1668c72ff0cbef840b8ed8",
+      "role": "package support or parameter example",
+      "changes": [
+        "Ports exactly the needed style, network and page artists; replaces v11 ast/exec extraction with static functions; reads frozen ROI CSVs and cached PNGs from external work directory."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v2/code/render_si07_roi_r2.py",
+          "sha256": "4ce96ebef9410bb68193f7d3d7c28dcd1359dce01f1668c72ff0cbef840b8ed8"
+        },
+        {
+          "path": "Paper_Figures/Fig2/v11/code/export_editable.py",
+          "sha256": "58fcc2d56c5085b8b23e8d93c5feef1cd4b357ec259ea995942468e88426447d"
+        }
+      ],
+      "candidate_sha256": "01711df953295ea43988020790bac02d9a69a8af720c1317ed9ff95e7de770aa",
+      "bytes": 6035
+    },
+    {
+      "path": "figures/fig2/run_fold_scores_smoke.m",
+      "source": "Paper_Figures/Fig2/v5_evaluation_audit/run_fold_scores_smoke.m",
+      "source_sha256": "0348a181c92ae17fcbfba1467e2bc055ac21ca287e6e4556e13dd4fb4ae15910",
+      "role": "package support or parameter example",
+      "changes": [
+        "Single-fold in-memory API for the seven evaluated models. Uses ported Subspace/NMM kernels, caller-supplied LaGNA free_runs, and existing src generation/scoring for other models. Freezes cfg.dynamics-equivalent options, seed and Hodge DeltaT; retains failed rows. Writes per-subject CSV with key replacement only after Protocol and common all-fold SourceFingerprint match. No raw-path discovery, training or private cache loading."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig2/v5_evaluation_audit/run_fold_scores_smoke.m",
+          "sha256": "0348a181c92ae17fcbfba1467e2bc055ac21ca287e6e4556e13dd4fb4ae15910"
+        },
+        {
+          "path": "Paper_Figures/Fig2/v5_evaluation_audit/fair_v2_protocol.m",
+          "sha256": "63c857baf2bb80711508cbfb30f032993e5142533bc63c75f19ebc0b7be97662"
+        }
+      ],
+      "candidate_sha256": "592ce0703f4f1963dd29b34f45afe3b3871d6b26a60b2785e4059e55d8af61db",
+      "bytes": 7376
+    },
+    {
+      "path": "figures/fig2/SOURCE_REPRODUCTION.md",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "2026-10-03: documents fixed analysis families, five-fold sensitivity and historical runtime scope."
+      ],
+      "role": "candidate documentation; no subject data",
+      "bytes": 2136,
+      "candidate_sha256": "d286eb53a0833ea2c29acd2877e181dcce5bf317b2f9b1ffda7782b8cee7fffb"
+    },
+    {
+      "path": "figures/fig2/statistics.py",
+      "source": "Paper_Figures/Fig2/v6/code/render_v5.py",
+      "source_sha256": "7b92e38cbf42b4623a034e12782e504236238e63bf58b4525991003085fa979c",
+      "selected_functions": [
+        "paired_stats",
+        "common_subject_means",
+        "load_folds"
+      ],
+      "overrides": {
+        "AUDIT": "AUDIT = work('fig2') / 'folds'",
+        "partial": "from figures.fig2 import fold_inputs as partial",
+        "base": "from figures.fig2 import core_stats as base"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 4557,
+      "candidate_sha256": "f178e10ebf282ebe5fbd07ba0d2217905c0573f12d354e982c41145fb9e7d9be"
+    },
+    {
+      "path": "figures/fig2/test_fair_v2_synthetic.m",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [
+        "New small synthetic check for stochastic Subspace/NMM, Hodge sqrt-TR scaling, failed rows, fold-key replacement, other-fold preservation and mixed-fingerprint/protocol rejection."
+      ],
+      "sources": [],
+      "candidate_sha256": "2666d2f1c917b6ee14c57771fa1a2cf356c41f6d757c9f42652630da6edadf81",
+      "bytes": 3535
+    },
+    {
+      "path": "figures/fig3/compute_d_tests.py",
+      "source": "Paper_Figures/Fig3/v9/code/compute_d_tests.py",
+      "source_sha256": "e2612ea692ddcd31cae59dfe61af49d399807790bcd803668523e46cbe7c96b6",
+      "selected_functions": [
+        "main"
+      ],
+      "overrides": {
+        "HERE": "HERE = work('fig3')",
+        "ROOT": "ROOT = work('fig3')",
+        "SOURCE": "SOURCE = work('fig3') / 'recovery/analysis_run_v5/synthetic/results/trial_metrics_full.csv'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 2334,
+      "candidate_sha256": "4997e320ef4253969741c3f5c5060c75e64c936562740effaf72630ee8cd912e"
+    },
+    {
+      "path": "figures/fig3/exact_draw.py",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig3/code/render_fig3_corrected.py",
+      "source_sha256": "8f1cf6ee9c84e81eb4b954efd5b63b9f19fe390d0b806cb461e1f03ea5c3b309",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "ac49cb75c15855eac10f02d80b9438e8aeee41941a43422277e5ba812c028110",
+      "bytes": 3829
+    },
+    {
+      "path": "figures/fig3/exact_panels.py",
+      "source": "Paper_Figures/Fig3/v6/code/render_fig3.py",
+      "source_sha256": "ceaa5d78f899c81817ab9c799c7d2dc011816e801080327914b8f3e3ffa8bbbf",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "f2a0a97a5265021585c02abfdbce8656565884c04157b1b197ed7f8f21c72643",
+      "bytes": 8208
+    },
+    {
+      "path": "figures/fig3/exact_render_inputs.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "a3b8f7de66b400693f4b348a8c90efbccce664115b3c9f6fb27d4b40e1e9ec0a",
+      "bytes": 4175
+    },
+    {
+      "path": "figures/fig3/export_selected_corrected.m",
+      "source": "Paper_Figures/Fig3/v13/code/export_selected_corrected.m",
+      "source_sha256": "37d034217a29817c53ed57130d73b9315da358f3cef8bf5564c972a62ed6efa1",
+      "role": "package support or parameter example",
+      "changes": [
+        "external work root"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/export_selected_corrected.m",
+          "sha256": "37d034217a29817c53ed57130d73b9315da358f3cef8bf5564c972a62ed6efa1"
+        }
+      ],
+      "candidate_sha256": "84775cb3893594512a90a754d42c65bc00de09f16276c498c77ffab44588d715",
+      "bytes": 1491
+    },
+    {
+      "path": "figures/fig3/fig3_assert_exact_model.m",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig3/code/fig3_assert_exact_model.m",
+      "source_sha256": "72a9706e4caed2a7904d800098cd88de866f1cbb8d766c597db211eb18d794fe",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "a8c8e24bf8959ad343049b97297e23b1df629e3ff5cb572cf57aac73879e0d55",
+      "bytes": 974
+    },
+    {
+      "path": "figures/fig3/fig3_bc_trial.m",
+      "source": "Paper_Figures/Fig3/v13/code/fig3_bc_trial.m",
+      "source_sha256": "3fd3c67e607da120474b032f3f9dd9044a8327f3882d7800b72682b657d2877b",
+      "role": "package support or parameter example",
+      "changes": [
+        "same hcp150 option values inlined; external Hodge directory"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/fig3_bc_trial.m",
+          "sha256": "3fd3c67e607da120474b032f3f9dd9044a8327f3882d7800b72682b657d2877b"
+        },
+        {
+          "path": "rest-system-id-main/System_ID_methods/fmri_experiment_config.m",
+          "sha256": "bf5ef695262d8f33797fa1a5e6534df57db4e837d7bb8508c99234427e1a1c2f"
+        }
+      ],
+      "candidate_sha256": "3f7796c13d108835ad29dd6bf7622882c085af091a0757e2319b402de350c524",
+      "bytes": 8994
+    },
+    {
+      "path": "figures/fig3/fig3_exact_bc_trial.m",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig3/code/fig3_exact_bc_trial.m",
+      "source_sha256": "5f2fd7cb18b0fbf73d84dfb9712c2bbfa42cc4549a1a6324dd796c9e8d59c776",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "9f0529dc6ed7a673fb0d77dc47c714e44e428e333a69e5e613f171967144efd0",
+      "bytes": 8922
+    },
+    {
+      "path": "figures/fig3/fig3_exact_controlled_design.m",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig3/code/fig3_exact_controlled_design.m",
+      "source_sha256": "f7e0101e9b93727a1153a5842f343f29b4c1f3d7fcc1b5dfb8b08b8c530e44e6",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "7b3b3f50176e6ebbcc530e4bafa00dc052762d83168461d5d0f4d066ef4b842b",
+      "bytes": 1006
+    },
+    {
+      "path": "figures/fig3/fig3_exact_controlled_trial.m",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig3/code/run_fig3_exact_controlled.m",
+      "source_sha256": "fb868ba772253f047fce7df80e472ac806074e70846d9482c5e158c706d0a517",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "b77412edbe1e5ba2234c8121f3785e884ed50899c184740779325531f824b0fd",
+      "bytes": 8013
+    },
+    {
+      "path": "figures/fig3/fig3_exact_hodge.m",
+      "source": "rest-system-id-main/System_ID_methods/fig3_exact_hodge.m",
+      "source_sha256": "c7d145b08bbf619ae9f7a9925543a5cc697c87de2b595522a1cf2da0e6810244",
+      "role": "package support or parameter example",
+      "changes": [
+        "algorithm copied unchanged"
+      ],
+      "sources": [
+        {
+          "path": "rest-system-id-main/System_ID_methods/fig3_exact_hodge.m",
+          "sha256": "c7d145b08bbf619ae9f7a9925543a5cc697c87de2b595522a1cf2da0e6810244"
+        }
+      ],
+      "candidate_sha256": "c7d145b08bbf619ae9f7a9925543a5cc697c87de2b595522a1cf2da0e6810244",
+      "bytes": 1115
+    },
+    {
+      "path": "figures/fig3/fig3_paths.m",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [
+        "new package/external work and dependency path contract"
+      ],
+      "sources": [],
+      "candidate_sha256": "bdd639f8401f5ea4df52568bff3fd16c9aa6bf589771343218364b2aa3ff0087",
+      "bytes": 1163
+    },
+    {
+      "path": "figures/fig3/fig3_protocol.m",
+      "source": "Paper_Figures/Fig3/v13/code/fig3_protocol.m",
+      "source_sha256": "8613f0a29b708b62aeff2428c0b4b2f7731e8e5a903ae29c52022197b0232d7c",
+      "role": "package support or parameter example",
+      "changes": [
+        "hash current package and external inputs; distinct package protocol version"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/fig3_protocol.m",
+          "sha256": "8613f0a29b708b62aeff2428c0b4b2f7731e8e5a903ae29c52022197b0232d7c"
+        }
+      ],
+      "candidate_sha256": "18d58a9d3bf254f497a31fb27d0805b6ab82a0d8f125119e083d63ec8196fbeb",
+      "bytes": 1466
+    },
+    {
+      "path": "figures/fig3/legacy_panels.py",
+      "source": "rest-system-id-main/System_ID_methods/paper_figures_v4/hcp150_fig3_revision_20260908/render_fig3.py",
+      "source_sha256": "79dd2ff90d52eaa24b2f9043549f0ce93148fbbfea1705e3d7583b5c63da0fc6",
+      "selected_functions": [
+        "median_iqr",
+        "clean",
+        "load_inputs",
+        "setup_style"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig3') / 'recovery'",
+        "OLD_SOURCE": "OLD_SOURCE = work('fig3') / 'legacy_source'",
+        "FONT_PATH": "FONT_PATH = font()"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        {
+          "old": "small = pd.read_csv(SMALL_PATH)",
+          "new": "small = None  # SI-only table is not used by the main figure."
+        },
+        "2026-10-03: reject legacy non-harmonic synthetic truth; passing schema alone does not validate a complete v13 input bundle."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 3231,
+      "candidate_sha256": "56d9a6a095be0e3059fdc9d27e6dc56474964d39c52d95505302825a3b830be8"
+    },
+    {
+      "path": "figures/fig3/main_panels.py",
+      "source": "Paper_Figures/Fig3/v6/code/render_fig3.py",
+      "source_sha256": "ceaa5d78f899c81817ab9c799c7d2dc011816e801080327914b8f3e3ffa8bbbf",
+      "changes": [
+        "current controlled summary path; removed v5 baseline copy check"
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 10112,
+      "candidate_sha256": "0c9177c6fe6de3ebc6bcf42039a4141eea717813cb3fe719606cd7b1b11af413",
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v6/code/render_fig3.py",
+          "sha256": "ceaa5d78f899c81817ab9c799c7d2dc011816e801080327914b8f3e3ffa8bbbf"
+        }
+      ]
+    },
+    {
+      "path": "figures/fig3/native_layout.py",
+      "source": "Paper_Figures/Fig3/v13/code/export_editable.py",
+      "source_sha256": "a23a3062b6e5f1547d44293c631fe7406efe81689f9697993f901dd39a7ba511",
+      "role": "package support or parameter example",
+      "changes": [
+        "accepted point geometry retained; work-root brain PNGs"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/export_editable.py",
+          "sha256": "a23a3062b6e5f1547d44293c631fe7406efe81689f9697993f901dd39a7ba511"
+        }
+      ],
+      "candidate_sha256": "2802cb90324084f6788f0b345126e82c5bc3bca75afc2ef25c41ff81ec4c5ba8",
+      "bytes": 5074
+    },
+    {
+      "path": "figures/fig3/network_v13.py",
+      "source": "Paper_Figures/Fig3/v4/code/render_fig3_si03_network.py",
+      "source_sha256": "d8783411352978ef550168f1b94516472eb955dd4b143b03c13927e9fccb8419",
+      "role": "package support or parameter example",
+      "changes": [
+        "network/map formula retained; external atlas and work root"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v4/code/render_fig3_si03_network.py",
+          "sha256": "d8783411352978ef550168f1b94516472eb955dd4b143b03c13927e9fccb8419"
+        }
+      ],
+      "candidate_sha256": "df59df2e57c5d0c454817146caedd73f37e9ab2826ad327e2d5236e9febf67c7",
+      "bytes": 14441
+    },
+    {
+      "path": "figures/fig3/prepare_corrected_truth.m",
+      "source": "Paper_Figures/Fig3/v13/code/prepare_corrected_truth.m",
+      "source_sha256": "d1d31a08a1dc8c1c25786d02dc39f364368cc81483bff4eb59d962d737a8f1ce",
+      "role": "package support or parameter example",
+      "changes": [
+        "external template; truth audit written to work root"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/prepare_corrected_truth.m",
+          "sha256": "d1d31a08a1dc8c1c25786d02dc39f364368cc81483bff4eb59d962d737a8f1ce"
+        }
+      ],
+      "candidate_sha256": "adcd7516491ca95d8c9769ae8e098ac9b1e6663cff1910d369138010338ba9c9",
+      "bytes": 1934
+    },
+    {
+      "path": "figures/fig3/README_zh.md",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "new Fig3 input/run/replay documentation",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "role": "candidate documentation; no subject data",
+      "bytes": 5705,
+      "candidate_sha256": "3826239dd92cde8cf7bd2f5f44f3f4a8dcbeb807f21c8a3ad16b74b54924c23d",
+      "sources": []
+    },
+    {
+      "path": "figures/fig3/recovery.py",
+      "source": "rest-system-id-main/System_ID_methods/paper_figures_v4/hcp150_fig3_revision_20260908/analysis_run_v5/render_results.py",
+      "source_sha256": "ce3605460ee54b5f97a41f81d5b1e775b0db54eaa07f289088cca8243b396024",
+      "selected_functions": [
+        "self_test",
+        "paired_trajectories",
+        "bootstrap_median",
+        "synthetic_summary",
+        "holm",
+        "paired_stat",
+        "controlled_panel",
+        "clean",
+        "legacy_energy_panel",
+        "repeat_heatmap",
+        "read_synthetic",
+        "input_path",
+        "setup_style",
+        "load_legacy"
+      ],
+      "overrides": {
+        "HERE": "HERE = work('fig3') / 'recovery/analysis_run_v5'",
+        "FONT": "FONT = font()"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        {
+          "old": "REVISION / \"render_fig3.py\"",
+          "new": "code(\"fig3/legacy_panels.py\")"
+        }
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 14066,
+      "candidate_sha256": "b8515b2e3f7aa5922a12b648aef9ec420daaf0cb5b9946e847e4857dffff338e"
+    },
+    {
+      "path": "figures/fig3/regional.py",
+      "source": "Paper_Figures/Fig3/v5/code/render_fig3.py",
+      "source_sha256": "a05ea319319e8ffac8b0dc59a909e5f491e343cde70924a2a0a4e6b60fa7216f",
+      "selected_functions": [
+        "sha",
+        "draw_e",
+        "brain_image",
+        "panel_label",
+        "regional_data"
+      ],
+      "overrides": {
+        "HERE": "HERE = work('fig3')",
+        "V2": "V2 = work('fig3') / 'regional_source'",
+        "V4": "V4 = work('fig3') / 'regional_assets'",
+        "SOURCE": "SOURCE = work('fig3') / 'regional_source/Fig3_SI03_per_seed_source.csv'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 4675,
+      "candidate_sha256": "97ef1e1bb77257c530b121888358977f31d84ceb94c1b68dfcf66984693099f1"
+    },
+    {
+      "path": "figures/fig3/render_exact.py",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig3/code/export_editable.py",
+      "source_sha256": "e8e64bc2d8f9280304d0f6f662d444e6e18243ab7cb9307c86441cbba92004d3",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "04682f21b35ab69b4df29e2fa8d2c5c858d6c120df9781aeecb67439a79535e7",
+      "bytes": 10045
+    },
+    {
+      "path": "figures/fig3/render_main.py",
+      "source": "Paper_Figures/Fig3/v13/code/render_fig3_corrected.py",
+      "source_sha256": "ffe2cdf14efc2e6c66cb1d9cf2d9f658adf00c68eeca7264409b7b26c693a796",
+      "changes": [
+        "full v13 source and native page; guarded entry replaces old refusal"
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 9263,
+      "candidate_sha256": "d83b7760d9b8fd57c4d370d8eb75562b47a0abdb65d7f671a5a0835f9228b7e6",
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/render_fig3_corrected.py",
+          "sha256": "ffe2cdf14efc2e6c66cb1d9cf2d9f658adf00c68eeca7264409b7b26c693a796"
+        },
+        {
+          "path": "Paper_Figures/Fig3/v13/code/export_editable.py",
+          "sha256": "a23a3062b6e5f1547d44293c631fe7406efe81689f9697993f901dd39a7ba511"
+        }
+      ]
+    },
+    {
+      "path": "figures/fig3/replace_surfaces.py",
+      "source": "Paper_Figures/Fig3/v12/code/replace_cortical_surfaces.py",
+      "source_sha256": "192a5e4dd3c8eefd1bfe7e92431dd987e360ccb80379e0e8335e73a7a91a3e2c",
+      "changes": [
+        "external atlas/surface/label paths for v13 verification"
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 6142,
+      "candidate_sha256": "a0a9dc0c7b5d933bee4cbff3a3feb1222cb64506ce0e78281be7afe1261c91dd",
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v12/code/replace_cortical_surfaces.py",
+          "sha256": "192a5e4dd3c8eefd1bfe7e92431dd987e360ccb80379e0e8335e73a7a91a3e2c"
+        }
+      ]
+    },
+    {
+      "path": "figures/fig3/run_bce_corrected.m",
+      "source": "Paper_Figures/Fig3/v13/code/run_bce_corrected.m",
+      "source_sha256": "ae91e63ad89e03a5997173ef5d2219ac4b1064cd0fddc63c7637871347497ee7",
+      "role": "package support or parameter example",
+      "changes": [
+        "external work root and frozen job-key CSV paths"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/run_bce_corrected.m",
+          "sha256": "ae91e63ad89e03a5997173ef5d2219ac4b1064cd0fddc63c7637871347497ee7"
+        }
+      ],
+      "candidate_sha256": "c6422419b87c0ea23229092dd2ceaef768b20be02c71a321233884ca0f14ee0b",
+      "bytes": 3033
+    },
+    {
+      "path": "figures/fig3/run_fig3_corrected.ps1",
+      "source": "Paper_Figures/Fig3/v13/code/run_fig3_corrected.ps1",
+      "source_sha256": "06fcacfec4db434beb7a5dabaf7028a33f75ad6e64a7729a068bb0583737bc21",
+      "role": "package support or parameter example",
+      "changes": [
+        "portable MATLAB/Python; full/render modes and separate work root"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/run_fig3_corrected.ps1",
+          "sha256": "06fcacfec4db434beb7a5dabaf7028a33f75ad6e64a7729a068bb0583737bc21"
+        }
+      ],
+      "candidate_sha256": "a2df427f98211c6c386ccec105f3f5ddd7abe85ead0e101fca5b5b215afe9432",
+      "bytes": 792
+    },
+    {
+      "path": "figures/fig3/run_recovery_corrected.m",
+      "source": "Paper_Figures/Fig3/v13/code/run_recovery_corrected.m",
+      "source_sha256": "d6866518033afedb2748d5f2ea3cdba3c9c3e61df5e6bca0293a4fb584534d2f",
+      "role": "package support or parameter example",
+      "changes": [
+        "external work root/dependencies; corrected cache-only prepare log"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/run_recovery_corrected.m",
+          "sha256": "d6866518033afedb2748d5f2ea3cdba3c9c3e61df5e6bca0293a4fb584534d2f"
+        }
+      ],
+      "candidate_sha256": "ed5d596b06db0b0c32e8179712c411645051ba71bc1f68eeaf685c75435eb13a",
+      "bytes": 14906
+    },
+    {
+      "path": "figures/fig3/s12.py",
+      "source": "Paper_Figures/Fig3/v1/code/plot/render_figs3_integrated.py",
+      "source_sha256": "b3e056051114c2fc426a18425897fdb1bee17f9bbd9fcdd03193e4db00143624",
+      "role": "package support or parameter example",
+      "changes": [
+        "accepted nine-panel layout and readable graph; external legacy synthetic CSV"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v1/code/plot/render_figs3_integrated.py",
+          "sha256": "b3e056051114c2fc426a18425897fdb1bee17f9bbd9fcdd03193e4db00143624"
+        },
+        {
+          "path": "Paper_Figures/Fig3/v11/code/render_figs12.py",
+          "sha256": "6fb0a2605a4e0f8df5531d19beee0d8678a99794155d0c9367e47c181e250629"
+        },
+        {
+          "path": "rest-system-id-main/System_ID_methods/paper_figures_v4/hcp150_fig3_revision_20260908/render_fig3.py",
+          "sha256": "79dd2ff90d52eaa24b2f9043549f0ce93148fbbfea1705e3d7583b5c63da0fc6"
+        }
+      ],
+      "candidate_sha256": "0a87a707ed19388b00d80e5e70bafe2b4361be4d68a32cd0e8d1778e6279c037",
+      "bytes": 19019
+    },
+    {
+      "path": "figures/fig3/s13.py",
+      "source": "Paper_Figures/Fig3/v13/code/render_figs13.py",
+      "source_sha256": "5e11091836ed4f2ac24a887c3a6105ef3c66d3ad6a16e474f183cadf6548f2c6",
+      "role": "package support or parameter example",
+      "changes": [
+        "accepted S13 style; package-local layout"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/render_figs13.py",
+          "sha256": "5e11091836ed4f2ac24a887c3a6105ef3c66d3ad6a16e474f183cadf6548f2c6"
+        }
+      ],
+      "candidate_sha256": "e58f5696d2f1e67f529acea2813510af95adddcf993c60d717d66b54a01a84a1",
+      "bytes": 4302
+    },
+    {
+      "path": "figures/fig3/s13_layout.py",
+      "source": "rest-system-id-main/System_ID_methods/paper_figures_v4/hcp150_fig3_revision_20260908/layout_v2/render_fig3_v2.py",
+      "source_sha256": "d72395c8347a52e7384fb07be8edac332dec646f3c36fe41bbd92a51b6eda41d",
+      "role": "package support or parameter example",
+      "changes": [
+        "accepted S13 panel geometry subset"
+      ],
+      "sources": [
+        {
+          "path": "rest-system-id-main/System_ID_methods/paper_figures_v4/hcp150_fig3_revision_20260908/layout_v2/render_fig3_v2.py",
+          "sha256": "d72395c8347a52e7384fb07be8edac332dec646f3c36fe41bbd92a51b6eda41d"
+        }
+      ],
+      "candidate_sha256": "7d78f26abf39061d88e7d7655cecec4637e3a93de3348f851302c169fc193cf7",
+      "bytes": 5468
+    },
+    {
+      "path": "figures/fig3/selected_fields.py",
+      "source": "Paper_Figures/Fig3/v2/code/render_fig3_si03.py",
+      "source_sha256": "b44147e543a8ee458fd58a15dd95b45a19279f72a060adb9260ac9a9a7346da3",
+      "role": "package support or parameter example",
+      "changes": [
+        "selected-field regional formula retained; external source root"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v2/code/render_fig3_si03.py",
+          "sha256": "b44147e543a8ee458fd58a15dd95b45a19279f72a060adb9260ac9a9a7346da3"
+        }
+      ],
+      "candidate_sha256": "29f988709354ea9d7602b9bd7609eaa732e1d41e73de1749f54d2944147020d4",
+      "bytes": 2837
+    },
+    {
+      "path": "figures/fig3/surface_helpers.py",
+      "source": "Paper_Figures/Fig3/v4/code/render_fig3_si03_network.py",
+      "source_sha256": "d8783411352978ef550168f1b94516472eb955dd4b143b03c13927e9fccb8419",
+      "selected_functions": [
+        "tian_screenshot",
+        "crop_white",
+        "screenshot",
+        "mesh"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig3')",
+        "ASSETS": "ASSETS = work('fig3') / 'atlas_assets'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 3131,
+      "candidate_sha256": "0fb92bc2a7456e03df87799b7131e2d1928ab4e877d73bb1e0bd347ee6659ae3"
+    },
+    {
+      "path": "figures/fig3/v13_pipeline.py",
+      "source": "Paper_Figures/Fig3/v13/code/render_corrected.py",
+      "source_sha256": "eabfaab3d4cc76d187a8a51a722e0477fd156636ac7eeec60b2233d2128a4af1",
+      "role": "package support or parameter example",
+      "changes": [
+        "v13 guards/statistics and full render; read-only original cache replay with path provenance"
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig3/v13/code/render_corrected.py",
+          "sha256": "eabfaab3d4cc76d187a8a51a722e0477fd156636ac7eeec60b2233d2128a4af1"
+        }
+      ],
+      "candidate_sha256": "c2571687e4961abc78c463c280b9c3f04d9ebc380aa93c55d9d32f0acfe5d0a6",
+      "bytes": 12680
+    },
+    {
+      "path": "figures/fig4/build_pairs.py",
+      "source": "Paper_Figures/Fig4/v8/code/build_panel_d_pairs.py",
+      "source_sha256": "4dc144c08953d972caa6c01902252f71e3c91a5e1d21ef2eba4802f1b5cb3e69",
+      "selected_functions": [
+        "main"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig4')",
+        "RAW": "RAW = work('fig4') / 'signed_abs/temporal_per_subject_metrics.csv'",
+        "SUMMARY": "SUMMARY = work('fig4') / 'source_data/signed_abs_temporal_summary_median_iqr.csv'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 2172,
+      "candidate_sha256": "d9d432e276bbcdfc38b5ac4e8d995f47f2597924ef8717cbd1d73ff825c87156"
+    },
+    {
+      "path": "figures/fig4/exact_render_inputs.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "1ad69c148dc61163fa66fdd688a6f32d22735e3910e09b22b33a65ae7b530a2d",
+      "bytes": 1319
+    },
+    {
+      "path": "figures/fig4/exact_style.py",
+      "source": "Paper_Figures/Fig4/v9/code/export_editable.py",
+      "source_sha256": "7a01a6167e8b2b9edbb0f72b18b276fd8d690000b3c96d70abf7142d2b0b0efc",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "522b9e1d889cf40200e08cbd0f177d240add85a57a841ea908d47c4b7e8e0823",
+      "bytes": 16944
+    },
+    {
+      "path": "figures/fig4/export_editable.py",
+      "source": "Paper_Figures/Fig4/v9/code/export_editable.py",
+      "source_sha256": "8f56db716ddb57491bb880f61b42a6000c73e22011dc804bd4188f808a899d1c",
+      "role": "package support or parameter example",
+      "changes": [
+        "Reuses package draw_main with exact v9 axis/text shifts and native PDF/SVG export; reads external tables via figures.paths.work and Helvetica Neue via figures.paths.font."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig4/v9/code/export_editable.py",
+          "sha256": "8f56db716ddb57491bb880f61b42a6000c73e22011dc804bd4188f808a899d1c"
+        }
+      ],
+      "candidate_sha256": "8d8542f6e7bcb13a4769a6fcb9de93fd4c41ec47dba64596846ca85e53bf932e",
+      "bytes": 1757
+    },
+    {
+      "path": "figures/fig4/fig4_exact_features.m",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig4/run_fig4_exact_adapter.m",
+      "source_sha256": "d7de0b2bbc341b3e387b9cfdeb33d3a698b38012460e0a006e58729989b799c1",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "26f1e7e8332b084bce796ff8daa3516917ed8b707b47c98a3548bea0f47dcc54",
+      "bytes": 445
+    },
+    {
+      "path": "figures/fig4/fig4_model_signature.m",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig4/fig4_model_signature.m",
+      "source_sha256": "2514650411fa857ebe91606651b6f1913e5a7ace56ef3efef4cac3dbc5486f51",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "2514650411fa857ebe91606651b6f1913e5a7ace56ef3efef4cac3dbc5486f51",
+      "bytes": 1793
+    },
+    {
+      "path": "figures/fig4/README.md",
+      "source": "Paper_Figures/Fig4/v9/README.md",
+      "source_sha256": "eb10b009d94e24e8ede6027696627dcab48f8b778ca56ad1551caaf7eb09753b",
+      "role": "package support or parameter example",
+      "changes": [
+        "Documents current native entrypoint, seven external CSV inputs, font requirement and output boundary.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig4/v9/README.md",
+          "sha256": "eb10b009d94e24e8ede6027696627dcab48f8b778ca56ad1551caaf7eb09753b"
+        },
+        {
+          "path": "Paper_Figures/Fig4/v9/code/export_editable.py",
+          "sha256": "8f56db716ddb57491bb880f61b42a6000c73e22011dc804bd4188f808a899d1c"
+        }
+      ],
+      "candidate_sha256": "0cbf83254329099fc4fca48f660061e031fc9c1e9809f5f1726fc120825b1a2f",
+      "bytes": 3540
+    },
+    {
+      "path": "figures/fig4/render_exact.py",
+      "source": "Paper_Figures/Fig4/v10/code_snapshot/render_fig4.py",
+      "source_sha256": "d871da68e614c3ba7b53f9276b813f2da23ea824ff772ec94be9388c631ae0fe",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "ae4d2be414467589a72cbe3be8ad4e8ad5bb6687e84ca4b1d805d7eb5c152502",
+      "bytes": 2269
+    },
+    {
+      "path": "figures/fig4/render_main.py",
+      "source": "Paper_Figures/Fig4/v8/code/render_fig4.py",
+      "source_sha256": "4323e83b02981d91a30fe06154a0d0d8831b7e269834d78498675817ce646aec",
+      "changes": [
+        "Exposes existing v8 artists as draw_main for v9 native layout; old direct v8 entrypoint routes to exporter; removes now-unused v8 sidecar/QA writes. Statistical checks, coordinates and colors are preserved."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 14367,
+      "candidate_sha256": "48dbec364091f5daa84a73e7c1ffe3b3059fc80663e054b32bdefd4820d2cfdc",
+      "sources": [
+        {
+          "path": "Paper_Figures/Fig4/v8/code/render_fig4.py",
+          "sha256": "4323e83b02981d91a30fe06154a0d0d8831b7e269834d78498675817ce646aec"
+        },
+        {
+          "path": "Paper_Figures/Fig4/v9/code/export_editable.py",
+          "sha256": "8f56db716ddb57491bb880f61b42a6000c73e22011dc804bd4188f808a899d1c"
+        }
+      ]
+    },
+    {
+      "path": "figures/fig4/SOURCE_LABELS.md",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "2026-10-03: documents component labels and unresolved historical computation-hash provenance."
+      ],
+      "role": "candidate documentation; no subject data",
+      "bytes": 1940,
+      "candidate_sha256": "01e6262ca023640908142f563668e27c9850a0a1d94c46573ffc406c72387ab3"
+    },
+    {
+      "path": "figures/fig4/statistics.py",
+      "source": "Paper_Figures/Fig4/v8/code/compute_panel_tests.py",
+      "source_sha256": "5014849b31920d1cdbde7d9c7be3b46b68d5a86ff3fa3f6713638c3f6b74918f",
+      "selected_functions": [
+        "main",
+        "sha256",
+        "write_audit",
+        "md_table",
+        "compute_ac",
+        "vector136",
+        "read_record",
+        "holm",
+        "empty_row",
+        "matrix_identity_permutation",
+        "seed_for",
+        "cosine_metrics",
+        "compute_d",
+        "load_temporal_features",
+        "write_csv",
+        "compute_efg",
+        "bootstrap_median_ci",
+        "sign_test",
+        "compute_efg_preview",
+        "read_long_efg"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig4')",
+        "V7": "V7 = work('fig4')",
+        "FIG4_SRC": "FIG4_SRC = work('fig4') / 'source_data'",
+        "FIG5_SRC": "FIG5_SRC = work('fig4') / 'ablation'",
+        "TEMP_CACHE": "TEMP_CACHE = work('fig4') / 'features'",
+        "OLD_ROOT": "OLD_ROOT = work('fig4') / 'feature_provenance'",
+        "OLD_LENGTH": "OLD_LENGTH = work('fig4') / 'signed_abs'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        {
+          "old": "<original local Python executable>",
+          "new": "python"
+        },
+        {
+          "old": "        OLD_ANALYSIS,\n",
+          "new": ""
+        },
+        {
+          "old": "str(path.relative_to(ROOT))",
+          "new": "path.name if path == Path(__file__).resolve() else str(path.relative_to(ROOT))"
+        }
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 32948,
+      "candidate_sha256": "ed7fbdc0ccdd216dfbd277208939cda0b8c1a338cd7729efdb446aeb8dbdeccf"
+    },
+    {
+      "path": "figures/fig5/adapt_hlgsde_to_author_mindy.m",
+      "source": "Paper_Figures/Dynamics_attractors/v4/adapt_hlgsde_to_author_mindy.m",
+      "source_sha256": "26cfbb22dc5b3efb95e0bf6ba6899e56313ec5f454c0728f47acaa383c5e785c",
+      "source_start_marker": "function ",
+      "source_end_marker": null,
+      "changes": [
+        "Verbatim local-function subset, LF line endings; no formula changes."
+      ],
+      "role": "main-figure MATLAB core; external dependencies documented",
+      "bytes": 4702,
+      "candidate_sha256": "26cfbb22dc5b3efb95e0bf6ba6899e56313ec5f454c0728f47acaa383c5e785c"
+    },
+    {
+      "path": "figures/fig5/analyze_gradients.py",
+      "source": "Paper_Figures/Fig5/v9/code/analyze_gradients.py",
+      "source_sha256": "3a4db3a5b0e359a17e50069fb5e4642c9686213034dd9ff942dc69ce5d6bf744",
+      "selected_functions": [
+        "main",
+        "standardize",
+        "sha"
+      ],
+      "overrides": {
+        "OUT": "OUT = work('fig5')"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 7114,
+      "candidate_sha256": "b0c64b3d44e12fd59610d8a1260db1033f196d7b0012019b6f22715847c69b85"
+    },
+    {
+      "path": "figures/fig5/analyze_networks.py",
+      "source": "Paper_Figures/Fig5/v11/code/analyze_networks.py",
+      "source_sha256": "f761c1d03325f89837a3f5c3e56e171effd160da583489fbbe7e5c96443abd4b",
+      "selected_functions": [
+        "main",
+        "sha",
+        "holm",
+        "network_r2"
+      ],
+      "overrides": {
+        "OUT": "OUT = work('fig5')"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        {
+          "old": "LOCK = json.loads((OUT / \"canonical_reference_manifest.json\").read_text(encoding=\"utf-8\"))",
+          "new": ""
+        },
+        {
+          "old": "def main():",
+          "new": "def main():\n    LOCK = json.loads((OUT / \"canonical_reference_manifest.json\").read_text(encoding=\"utf-8\"))"
+        }
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 8870,
+      "candidate_sha256": "07e42df9089dfb448d13e7071165ad86f91f8d2b8a4efc60b9f4b38c71c3e12d"
+    },
+    {
+      "path": "figures/fig5/assign_roots.m",
+      "source": "Paper_Figures/Fig5/v9/code/export_fig5.m",
+      "source_sha256": "6be93814305cdd1293f62099670c3a04cfe9901c464ebab4c9a12815634c3251",
+      "source_start_marker": "function [score,best,owner]=assign_roots(",
+      "source_end_marker": "function [u,actual]=frozen_terms(",
+      "changes": [
+        "Verbatim local-function subset, LF line endings; no formula changes."
+      ],
+      "role": "main-figure MATLAB core; external dependencies documented",
+      "bytes": 277,
+      "candidate_sha256": "bd81b80832b04a0febd738f6562fc7284ba74d14e6ecc8073e033abf382c9bdf"
+    },
+    {
+      "path": "figures/fig5/build_source.py",
+      "source": "Paper_Figures/Fig5/v9/code/build_source.py",
+      "source_sha256": "b13bc5ffdfad5947a7532fb6c7a8b1d1c178f6b839241ae347a4c082ae428d6f",
+      "selected_functions": [
+        "main",
+        "sha256"
+      ],
+      "overrides": {
+        "OUT": "OUT = work('fig5')"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        {
+          "old": "sha256(row.ResultFile)",
+          "new": "sha256(OUT / row.ResultFile)"
+        },
+        {
+          "old": "loadmat(row.ResultFile,",
+          "new": "loadmat(OUT / row.ResultFile,"
+        }
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 3288,
+      "candidate_sha256": "e92b0f916f747fa17168ea122489f3b16e4b1914cd532acf3d3503b2794e2571"
+    },
+    {
+      "path": "figures/fig5/derive_subcortical.py",
+      "source": "Paper_Figures/Fig5/v14/code/derive_subcortical.py",
+      "source_sha256": "a230986c3ada7bc68fd31a53bb4908ce458e109af05bbaa45c9d86649cf2df47",
+      "selected_functions": [
+        "main",
+        "sha256"
+      ],
+      "overrides": {
+        "OUT": "OUT = work('fig5')"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 5109,
+      "candidate_sha256": "28188837443dacc915ffa152f72f0c2c45d056089c9f2b1eb5818608eadcc219"
+    },
+    {
+      "path": "figures/fig5/exact_panels.py",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig5/candidate_code/v16_panels.py",
+      "source_sha256": "519127d274c1d8841c588f79fa9d6a8e386ea8c8fc13bc1f8bb14928b897da0d",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "8467316da5749e19a15629340004e7faad50659de6960a5f46a94719842ad09b",
+      "bytes": 4655
+    },
+    {
+      "path": "figures/fig5/exact_render_inputs.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "46f638f1bf12d799dab8bce7dff7579cf615c5637b5b1bf95cfa71926d28f983",
+      "bytes": 7712
+    },
+    {
+      "path": "figures/fig5/exact_style.py",
+      "source": "Paper_Figures/Fig5/v16/code/plot_fig5.py",
+      "source_sha256": "3875baf8213c0f4180dad2dc3f879d959f48e7f0621a5d754bba51295ee921a7",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "48326adc19527c226bc0e8e0e97e8c8dfee114d441079d31fe244930ba64d6ea",
+      "bytes": 19871
+    },
+    {
+      "path": "figures/fig5/exact_text.py",
+      "source": "Paper_Figures/Fig5/v16/code/native_text.py",
+      "source_sha256": "7a62356819f20e430cfb6a1a1a7d0916401c5ec8799f78c34f104d1d77328afc",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "004e5cb82c78dac1aa2b64dbb9a05f0a9874176f0a125ba5933b0025bca9126b",
+      "bytes": 4083
+    },
+    {
+      "path": "figures/fig5/frozen_terms.m",
+      "source": "Paper_Figures/Fig5/v9/code/export_fig5.m",
+      "source_sha256": "6be93814305cdd1293f62099670c3a04cfe9901c464ebab4c9a12815634c3251",
+      "source_start_marker": "function [u,actual]=frozen_terms(",
+      "source_end_marker": "function [e,ok,reason]=replay_example(",
+      "changes": [
+        "Verbatim local-function subset, LF line endings; no formula changes."
+      ],
+      "role": "main-figure MATLAB core; external dependencies documented",
+      "bytes": 592,
+      "candidate_sha256": "e85d5d8735097587744786595540b7028a46a0a440ccb45dbd67d37c7c8836c2"
+    },
+    {
+      "path": "figures/fig5/render_exact.py",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig5/candidate_code/update_g843.py",
+      "source_sha256": "192e163439aafaeee6aeda681665a54125cfb733ba57cc796082904f4dd5f737",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "53196f1b2851a3d9210aa459ac4f9a235a2695e6ed6091c8c340b70af26a16a2",
+      "bytes": 5410
+    },
+    {
+      "path": "figures/fig5/render_main.py",
+      "source": "Paper_Figures/Fig5/v16/code/plot_fig5.py",
+      "source_sha256": "3875baf8213c0f4180dad2dc3f879d959f48e7f0621a5d754bba51295ee921a7",
+      "selected_functions": [
+        "main",
+        "save",
+        "panel_d",
+        "panel_c",
+        "paired_change_tests",
+        "paired_changes",
+        "panel_gradient",
+        "panel_network",
+        "panel_b",
+        "panel_a",
+        "place_native_panel",
+        "brain_images",
+        "brain_screen",
+        "crop_brain",
+        "source",
+        "configure"
+      ],
+      "overrides": {
+        "OUT": "OUT = work('fig5')",
+        "SOURCE": "SOURCE = work('fig5')",
+        "FONT": "FONT = font()",
+        "RENDERER": "RENDERER = code(\"fig5/surface_helpers.py\")"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        "2026-10-03: read inputs from SOURCE rather than OUT; reject mixed-cohort partial rendering before output.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained.",
+        "2026-10-08: panel g grouped bars and unchanged 95% intervals; numerical results retained."
+      ],
+      "role": "accepted validation or plotting implementation; author license pending",
+      "bytes": 26201,
+      "candidate_sha256": "a49a726f4e2cf3aaf9358c59b6816a7322f55ac16f41bc6195b11c520d1cc0ca"
+    },
+    {
+      "path": "figures/fig5/render_si.py",
+      "source": "Paper_Figures/Fig5/v15/code/integrate_figures.py",
+      "source_sha256": "b8bd989664b531e43940873c5273241d50c82813ffec738ed8dda2f16668239d",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 11797,
+      "candidate_sha256": "e4fe824cfd9ec25f3480929f8c7c5c9447aab74e889c3af02826a813f22ac5d8"
+    },
+    {
+      "path": "figures/fig5/search_one.m",
+      "source": "Paper_Figures/Dynamics_attractors/v9_hodge_roles/expansion/run_hodge_expansion.m",
+      "source_sha256": "87f2c73dcf07ca1350aa77de28e73026e2500528243ec613087f3f681c035552",
+      "source_start_marker": "function result=search_one(",
+      "source_end_marker": "function plot_status(",
+      "changes": [
+        "Verbatim local-function subset, LF line endings; no formula changes."
+      ],
+      "role": "main-figure MATLAB core; external dependencies documented",
+      "bytes": 4492,
+      "candidate_sha256": "eb1068efd5117a7ee40bf1be3ef40558b2c4bcdf1662e2a81f9c54bb0e765bcc"
+    },
+    {
+      "path": "figures/fig5/surface_helpers.py",
+      "source": "Paper_Figures/Fig5/v14/code/render_brainmaps.py",
+      "source_sha256": "423371b9bfa2d1ebba0e0f5bb7efcda4ead88c7a29a38ae4be7551e427a9cd69",
+      "selected_functions": [
+        "tian_assets",
+        "cortex_assets",
+        "verify_mapping",
+        "digest"
+      ],
+      "overrides": {
+        "OUT": "OUT = work('fig5') / 'code'",
+        "ASSETS": "ASSETS = work('fig5') / 'reference/atlas_assets'"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 3269,
+      "candidate_sha256": "74fec512307791a3fe2bf2d118fe25dffae10dae75eaa3bb280c03b1478cf4b8"
+    },
+    {
+      "path": "figures/fig5/validation/__init__.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only."
+      ],
+      "bytes": 90,
+      "candidate_sha256": "4e71f23e17361c6949fcf16f643bce962a8486be4f828e28cca6ad40b373f216"
+    },
+    {
+      "path": "figures/fig5/validation/branch_qc.py",
+      "source": "Validation_20261007/A_mode_shape_function/branch_qc.py",
+      "source_sha256": "1139e6e7a11bc654c625836d90b853720a0fa5a76573c01f7078378755fc84fa",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 7609,
+      "candidate_sha256": "d5cdd5d51a5cc8f411e34ba0897ca2cdf24153719784749c4ae0dac5283c2018"
+    },
+    {
+      "path": "figures/fig5/validation/decomposition_stability.py",
+      "source": "Validation_20261007/B_decomposition_stability/validate_b.py",
+      "source_sha256": "8956491d7475f489b45fbf2c8b87bda6a821cdf78c25fcf94683f5e8a6b41f0b",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 26381,
+      "candidate_sha256": "1b200accfdf49bc6ff6e71aea67438c5561d29e75d5bc38d164c0a7c9ad659b5"
+    },
+    {
+      "path": "figures/fig5/validation/dose_sensitivity.py",
+      "source": "Validation_20261007/followup_v1/C_matched_controls/dose_sensitivity.py",
+      "source_sha256": "10c514010156dd0af049ac87b3708de5a98e0845b6fdf24654f2fb4958bce582",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 2736,
+      "candidate_sha256": "7f5b2d6b3780fac6fc83e2a525c44907836c06b41b5c021d90ea70392cc05a86"
+    },
+    {
+      "path": "figures/fig5/validation/exact_mode_search.py",
+      "source": "Validation_20261007/followup_v1/A_exact_modes/exact_mode_search.py",
+      "source_sha256": "1d15077562287b0268ac51860fa29dcf3d75451f8caef67b1ea486f9cff94a12",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 19941,
+      "candidate_sha256": "3d641f1008ff374f21615ed4d8b4b11b32f6eb394805ca35d2bd7c53584d0490"
+    },
+    {
+      "path": "figures/fig5/validation/INPUTS.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "bytes": 3323,
+      "candidate_sha256": "b8e8abd80357295bcf6a07e98f5e5ee9b2aca031c5af6c9ade60b0780f2c028d"
+    },
+    {
+      "path": "figures/fig5/validation/matched_controls.py",
+      "source": "Validation_20261007/followup_v1/C_matched_controls/matched_controls.py",
+      "source_sha256": "b8dd84e06e61754f1650e3117be0aca0829cd359f9a19acdac4456cae2e1cbba",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 24515,
+      "candidate_sha256": "d139d6715be111d8a2437d2935aee1356d3e2b17e22d9590d4ea39d1d9b605d0"
+    },
+    {
+      "path": "figures/fig5/validation/mode_dynamics.py",
+      "source": "Validation_20261007/A_mode_shape_function/analyze.py",
+      "source_sha256": "c730bc68e6b560d9deab6ad5e1d73032aefb8b119f843230d738d90575132087",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 25431,
+      "candidate_sha256": "d017adb8f60185b0aa2f7e70d4d0753a01e38699ee45174e843f58a0b6d320aa"
+    },
+    {
+      "path": "figures/fig5/validation/plot_exact_modes.py",
+      "source": "Validation_20261007/followup_v1/A_exact_modes/plot_summary.py",
+      "source_sha256": "6c0e6621b3f7b26e7c5c55b9ee093404e7c64e957d0c714f554e63661c187310",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 8223,
+      "candidate_sha256": "91427c34f4abdea830faf613831a9226b18c7d312eeb8384b18875dae144068a"
+    },
+    {
+      "path": "figures/fig5/validation/README.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "bytes": 1426,
+      "candidate_sha256": "ee36a6636e4705a2fcd6f67e9da458c61d37d977e08995c8f6dd64f4290d49b2"
+    },
+    {
+      "path": "figures/fig5/validation/README_zh.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "bytes": 1240,
+      "candidate_sha256": "7dfcb8ac46da95dc1beb1bbdd949dcf4194cbed8621c160beb4d4b9e7e76f240"
+    },
+    {
+      "path": "figures/fig5/validation/summarize_decomposition.py",
+      "source": "Validation_20261007/B_decomposition_stability/summarize_b.py",
+      "source_sha256": "1dae02805cd5b9202825598c4f459fb873da0fd3b0974d9d0d27d897e5f32079",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 20162,
+      "candidate_sha256": "936c8be343dac1ef55b235c5c84ed4a900dcb5fd25e4d199355fbb3c1432bdfe"
+    },
+    {
+      "path": "figures/fig5/validation/summarize_matched_controls.py",
+      "source": "Validation_20261007/followup_v1/C_matched_controls/final_summary.py",
+      "source_sha256": "a71b2419b5fab72253a206b25ed072b62b93439571fde44b1e957a5fd3829f62",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 6262,
+      "candidate_sha256": "f63a57097bede543f702b92a22c725138dd6456ce6c54b29e10aed28746bdb63"
+    },
+    {
+      "path": "figures/fig6/av_components.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/sixth_pack_20260916_hodge_bridge/fig6_composite_v1/av_analysis/run_av_analysis.py",
+      "source_sha256": "0f03f0cb002ff731c57d4708546c384eb5805d86a0ea2c5c7fa9f05fa71e95f4",
+      "selected_functions": [
+        "hc3",
+        "components",
+        "split_frames"
+      ],
+      "overrides": {
+        "FrameMask": "from figures.fig6.lag_asymmetry import FrameMask",
+        "block_frame_indices": "from figures.fig6.frame_blocks import block_frame_indices",
+        "signed_lag_asymmetry_continuous": "from figures.fig6.lag_asymmetry import signed_lag_asymmetry_continuous"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 1878,
+      "candidate_sha256": "1d1e95aa7bd07e0b1865cab66d23572eb96785b7b45b227bc78dba235cf0d3fe"
+    },
+    {
+      "path": "figures/fig6/COMPUTATION_LOCK.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "0195f6c0618a4eada3b6e33bad5b1b432e26d91a7a2ad96cb764c56c7bb80d7d",
+      "bytes": 785
+    },
+    {
+      "path": "figures/fig6/design_diagnostics.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/sixth_pack_20260916_hodge_bridge/fig6_composite_v1/review_revision_v4_6pro_20260917/build_v4_diagnostics.py",
+      "source_sha256": "1fb90ba891644e58d5b47a1a25d58f77d546facd23e6fbb08c6b93ae74fa097b",
+      "selected_functions": [
+        "holm",
+        "sse_qr",
+        "blocks"
+      ],
+      "overrides": {},
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 927,
+      "candidate_sha256": "7acc0069200866f700c4cb2c4f98edc4bd7a72dba8ecb05b6626230f1b0136a5"
+    },
+    {
+      "path": "figures/fig6/exact_render_inputs.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "portable exact main-core contract or package support",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "f21a36b5a726b6eccf2ea4a330e4aa3b9128a4a1c4d0b82d36f89a7ce0cb212e",
+      "bytes": 3554
+    },
+    {
+      "path": "figures/fig6/exact_style.py",
+      "source": "Paper_Figures/Fig6/v14/code/render_main.py",
+      "source_sha256": "1e2dfd8c9b54604eb01c1916d718567fc267facc984c5b072067e8f6a8be7d16",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "375ddc7cde7cc80df680f99a59ef857b4865b64125b6b13ff62f69bf37cca502",
+      "bytes": 14600
+    },
+    {
+      "path": "figures/fig6/expanded_design.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/sixth_pack_20260916_hodge_bridge/mdd_expansion_v1/run_hodge_c20_expanded.py",
+      "source_sha256": "7147f15c680311968d830c3f5c28169ddd763ee283a73302902495e65078d14f",
+      "selected_functions": [
+        "partial_r2",
+        "design",
+        "ntime_decision"
+      ],
+      "overrides": {},
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 2099,
+      "candidate_sha256": "6761632f5d53267e1f3a12744616208566fd692a86f03ce0063d1150b7789cc6"
+    },
+    {
+      "path": "figures/fig6/formal_tests.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/sixth_pack_20260916_hodge_bridge/run_hodge_c20_final.py",
+      "source_sha256": "18d70164c01f1c33dc9a4e4dc2318fc4031e74029f0b5b971dd00d7f37cedd27",
+      "selected_functions": [
+        "partial_r2_bootstrap",
+        "build_design",
+        "zscore",
+        "wild_block",
+        "hc3_fit",
+        "holm_planned"
+      ],
+      "overrides": {},
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        "2026-10-03: generic MDD Age==0-to-missing complete-case selection, without real participant identifiers."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 6304,
+      "candidate_sha256": "4762f560a3575c9036b8027e510e2609a8b4539b0b1075b2835d7b70a79f5e06"
+    },
+    {
+      "path": "figures/fig6/frame_blocks.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/calibration/cross_block_calibration.py",
+      "source_sha256": "935a5162931c86c1e1d299c629495182b6186c2043f4b1c40c6583cbdabaa2d2",
+      "selected_functions": [
+        "block_frame_indices"
+      ],
+      "overrides": {
+        "FrameMask": "from figures.fig6.lag_asymmetry import FrameMask"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 970,
+      "candidate_sha256": "4646e6914e32ddef291d06ea4c86a8efc6c1398b72d15493239701181a9fb997"
+    },
+    {
+      "path": "figures/fig6/lag_asymmetry.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/calibration/directional_ou_pilot.py",
+      "source_sha256": "7404e96118f019b0bdcacf1a5ea95a43c3f34b1b1163f005b9b77084c9fc5f11",
+      "selected_functions": [
+        "signed_lag_asymmetry_continuous",
+        "continuous_lag_pairs",
+        "FrameMask"
+      ],
+      "overrides": {
+        "valid_lag_pairs": "from figures.fig6.lag_pairs import valid_lag_pairs"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 1771,
+      "candidate_sha256": "fdf5235fd8f2f4170f61c48fc8c3c84b08e1950e728cdbfeab417b2f1f4f83fb"
+    },
+    {
+      "path": "figures/fig6/lag_pairs.py",
+      "source": "论文图表/Fig6_机制改进规划_20260914/接入与校准/calibration/lag_calibration.py",
+      "source_sha256": "c17d51ea4d04ea06e713cf9ec4d2bdbb0d6b20eba6504fbfbb2e6a15da708843",
+      "selected_functions": [
+        "valid_lag_pairs"
+      ],
+      "overrides": {},
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 1050,
+      "candidate_sha256": "8687d12a15935f8b653bcbea2f91d0acc01e0771c9c3dbee02e2f0a9670f4d5b"
+    },
+    {
+      "path": "figures/fig6/render_exact.py",
+      "source": "Validation_20261014/Exact_Main_Model/downstream/fig6/render_exact_fig6.py",
+      "source_sha256": "d891777ac4caea0ef3b0097acf7c0971c5b60e4acdc60056de0e7ffe9a784006",
+      "role": "author main-core excerpt/adapter; paths externalized; no private data bundled",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "560db3af1c7155bd24e71c6737cf89f4bd7546966b805d3a308bd13392a5a44f",
+      "bytes": 1730
+    },
+    {
+      "path": "figures/fig6/render_main.py",
+      "source": "Paper_Figures/Fig6/v13/code/render_main.py",
+      "source_sha256": "1e2dfd8c9b54604eb01c1916d718567fc267facc984c5b072067e8f6a8be7d16",
+      "selected_functions": [
+        "main",
+        "save",
+        "draw_f",
+        "stars",
+        "draw_d",
+        "draw_c",
+        "draw_b",
+        "draw_a",
+        "data",
+        "setup"
+      ],
+      "overrides": {
+        "ROOT": "ROOT = work('fig6')",
+        "SRC": "SRC = work('fig6') / 'source_data'",
+        "FONT": "FONT = font()"
+      },
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        "2026-10-06: ported v13 15-point lower-panel lift and created QA directory before panel writes."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 12604,
+      "candidate_sha256": "4b11f6d9b2dcd60ba04753c96d9063dd57050d8f6bea1c698c2e2409db0f1309"
+    },
+    {
+      "path": "figures/fig6/render_si.py",
+      "source": "Paper_Figures/Fig6/v14/code/render_si.py",
+      "source_sha256": "c066575dcc451bda197bd838de580832876f1e0ce4cfc72f98b162e155775264",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained.",
+        "2026-10-13: regression-model display labels changed to R0/R1/R2; calculations and input columns retained."
+      ],
+      "bytes": 24607,
+      "candidate_sha256": "a105f6878bedfb783bf020bf7dbb1460b2c8b5bc931592cf5db32127c757ceb6",
+      "additional_sources": [
+        {
+          "source": "Validation_20261007/followup_v1/B_mdd_recompute/report.py",
+          "source_sha256": "5048ff4ebb1d81ad3e2611b010d1a231a54b30d76c3c8df7ffce7bf844e53ea4"
+        },
+        {
+          "source": "Validation_20261007/followup_v1/D_shared_estimation/make_figures.py",
+          "source_sha256": "af3443b3ba865c14c0d172593b06a292e549e7bef9824bba370e3a0da95df477"
+        }
+      ]
+    },
+    {
+      "path": "figures/fig6/statistics.py",
+      "source": "Paper_Figures/Fig6/v1/code/analysis/prepare_v5_analysis.py",
+      "source_sha256": "61efd43abd5da1329808bde7b9cb5b50ff181c86eb58518fa18a290cfa171592",
+      "selected_functions": [
+        "sex_numeric",
+        "oof_analysis",
+        "apply_spec",
+        "fit_spec",
+        "_mean_sd",
+        "assign_folds",
+        "rms_group_analysis",
+        "holm",
+        "joint_wild_group_test",
+        "hc3_fit"
+      ],
+      "overrides": {},
+      "changes": [
+        "Extracted named functions and same-module dependencies; omitted unrelated/SI-only orchestration.",
+        "Input/output roots and local helper imports are configured, not original workspace paths.",
+        "2026-10-03: generic MDD missing-age rule; preserve original folds before exclusion and refit training-only transforms.",
+        "2026-10-06: reject MDD Age=0 at apply_spec; use supplied frozen person folds for current v13 OOF and retain historical pre-exclusion fold timing when absent."
+      ],
+      "role": "main-figure analysis/render core; author license pending",
+      "bytes": 16655,
+      "candidate_sha256": "d1b3f447922dcd385c6c6a94cf631e00884c84c391a1f8ca2e588c814a0ecd5f"
+    },
+    {
+      "path": "figures/fig6/validation/__init__.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only."
+      ],
+      "bytes": 90,
+      "candidate_sha256": "8a2f78333ee92e7d996c7898f99bd2560802f08d1c5ca65f507120f6de90dc90"
+    },
+    {
+      "path": "figures/fig6/validation/analyze_simulation.py",
+      "source": "Validation_20261007/followup_v1/D_shared_estimation/analyze_simulation.py",
+      "source_sha256": "2aba31fe1d9e17f904327543b972aab13dd1c1636aedeb3d830f47f8a0aeb866",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 10692,
+      "candidate_sha256": "b2aaee0414672a4712e35fdc65cf125672c43c47b199e974aae94f088cb3d2cc"
+    },
+    {
+      "path": "figures/fig6/validation/clinical_validation.py",
+      "source": "Validation_20261007/C_clinical_validation/clinical_validation.py",
+      "source_sha256": "bddd092b51374eac0ba0cdf98a1de61b2b64a75853573f89b7038ca2cb5a158b",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 42621,
+      "candidate_sha256": "9bfc9c5f7566a18253d99f15a1a1f843ae3dbcd307b57b77ec9b74100d294955"
+    },
+    {
+      "path": "figures/fig6/validation/decay_sensitivity.py",
+      "source": "Validation_20261007/D_disease_specificity/run_decay_sensitivity.py",
+      "source_sha256": "e64a1f74f985c79a63845e6e1a15db972a55840b5d80a62966a39de9600e7e91",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 3106,
+      "candidate_sha256": "9a12cf477df37fd53bf464362cfb2c10d7a9929048ee995654a0a7197fb301b3"
+    },
+    {
+      "path": "figures/fig6/validation/directionality.py",
+      "source": "论文图表/Fig6_方向性分析_20260914/third_pack_20260915/c20_calibration/c20_ou_calibration.py",
+      "source_sha256": "278865ba4cfd397a45fad415f2bc6b3b105844933835ddba430f4830e16c02ab",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 1267,
+      "candidate_sha256": "d4e015e567229acf0da5963ee39642a1725f4ce0821949cfb6d8696605dae236"
+    },
+    {
+      "path": "figures/fig6/validation/disease_specificity.py",
+      "source": "Validation_20261007/D_disease_specificity/run_validation.py",
+      "source_sha256": "4ae6408aac12bd166872a1abadd283f43326f7bfc4af9c386b13b1c1ef0f5d76",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 27067,
+      "candidate_sha256": "030ab7203731149a0be9d63b3a3b77e20ec30b3967951316d7e9c989a92dea91"
+    },
+    {
+      "path": "figures/fig6/validation/exact_chain.py",
+      "source": "Validation_20261007/followup_v1/D_shared_estimation/exact_chain.py",
+      "source_sha256": "a8a2a941e16e9c914854a86f834563ce35c3cfde31af73b8be3545e342012232",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 8864,
+      "candidate_sha256": "3a86d8263d3b828f034663f615456041541a06a66c5cb057b6e532ebd378aaf9"
+    },
+    {
+      "path": "figures/fig6/validation/exact_sensitivity.py",
+      "source": "Validation_20261007/D_disease_specificity/run_exact_sensitivity.py",
+      "source_sha256": "49c81301300c94ce7c68d2a2868892dfc84e0d551d17a66dda8a2ed9d5484af4",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 4602,
+      "candidate_sha256": "14a818f630a63bf74c971607ea8b92538c4b5b6fcfa8320384e66c51abd6f031"
+    },
+    {
+      "path": "figures/fig6/validation/export_mdd_metadata.m",
+      "source": "Validation_20261007/followup_v1/B_mdd_recompute/export_metadata.m",
+      "source_sha256": "55710f1dde64472d81cb047a8abdffa10e4f820f8dd732ab8bbeee1a92a118a6",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 4348,
+      "candidate_sha256": "3bff2628442589c0bd02f4675a50c4434929468893d09a025ee727eb1ae98822"
+    },
+    {
+      "path": "figures/fig6/validation/fit_simulations.m",
+      "source": "Validation_20261007/followup_v1/D_shared_estimation/fit_simulations.m",
+      "source_sha256": "b9b5e118da2302f3c90b9c59504b923a39102c06bffb5520807f824ae998fc5c",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 4876,
+      "candidate_sha256": "e8eee41e467c1fe9232216e4c96eef46e8e15bc619e09b5e4f094e3acba1b6f4"
+    },
+    {
+      "path": "figures/fig6/validation/INPUTS.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "bytes": 3463,
+      "candidate_sha256": "cf56247b2ace90e703b987a0a99d32b1f0ad30eb9c6fa0903055be1f4e6aa841"
+    },
+    {
+      "path": "figures/fig6/validation/mdd_followup.py",
+      "source": "Validation_20261007/followup_v1/D_shared_estimation/mdd_followup.py",
+      "source_sha256": "28059cef860cf2c2b734ae3b0f9955cfaaed23cf8a332b7faf81cafccbc3cddb",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 8145,
+      "candidate_sha256": "d7a9337a12c0a4fe00ab84541a35909ec6f16744cf959290d876bfb3e50d6ce5"
+    },
+    {
+      "path": "figures/fig6/validation/mdd_prepare.py",
+      "source": "Validation_20261007/followup_v1/B_mdd_recompute/prepare.py",
+      "source_sha256": "b2a32c35af0783131e63dd4c6dcab147f8af15b2165cea602e536b6b50e4889e",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 3918,
+      "candidate_sha256": "c819d08cb3ec8e8f506096ca9eb229bdb4dbe74e06413962bb63cf5deb9a67a2"
+    },
+    {
+      "path": "figures/fig6/validation/mdd_recompute.py",
+      "source": "Validation_20261007/followup_v1/B_mdd_recompute/recompute.py",
+      "source_sha256": "fa669407c9da378067e3fe656b58ff9995344acdc015d466beae20d13b673372",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 18763,
+      "candidate_sha256": "a1686f5279fa4801f0f5578f863d61dbebb6aabc1eb8863d30525df1310c753e"
+    },
+    {
+      "path": "figures/fig6/validation/ou.py",
+      "source": "论文图表/Fig6_机制改进规划_20260914/接入与校准/calibration/lag_calibration.py",
+      "source_sha256": "c17d51ea4d04ea06e713cf9ec4d2bdbb0d6b20eba6504fbfbb2e6a15da708843",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 4792,
+      "candidate_sha256": "3b6f31899ef43ec3c2d0b667139ed8379912be7219dfa3aa35445856b4e63f76"
+    },
+    {
+      "path": "figures/fig6/validation/README.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "bytes": 1332,
+      "candidate_sha256": "db01c7bd92736831b3f00a4cd569b8d94ffca08c510c9c68ba1a4cdf6879068d"
+    },
+    {
+      "path": "figures/fig6/validation/README_zh.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "bytes": 1143,
+      "candidate_sha256": "efc042b852f7a3c5b678210397e5413f1db585e9ad1f82ba1662a47c475f76c3"
+    },
+    {
+      "path": "figures/fig6/validation/run_full_v2.m",
+      "source": "Validation_20261007/followup_v1/D_shared_estimation/run_full_v2.m",
+      "source_sha256": "bfdfe787afebe0b5a2c8a606e8e58cabcd0b34d594c784902ab14b58b5e52d76",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 664,
+      "candidate_sha256": "7367998e37eb8af8ac47bc1904632559d57aa72d44f3e4f618b2378faa52ce0e"
+    },
+    {
+      "path": "figures/fig6/validation/shared_calibration.py",
+      "source": "Validation_20261007/followup_v1/D_shared_estimation/shared_calibration.py",
+      "source_sha256": "a140dcb6742887e2ed6fbb3380c18c74d8583001cf38608395ffb5723deba75e",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 11465,
+      "candidate_sha256": "d70d2dc9f99f469bae9850a5a8982e17cd0630d29c1dc2b6df5f73a75d75854d"
+    },
+    {
+      "path": "figures/fig6/validation/verify_mdd_refit_matlab.m",
+      "source": "Validation_20261007/followup_v1/B_mdd_recompute/verify_refit_matlab.m",
+      "source_sha256": "f6fd3856fae2be398a802a0cc6962975480e5a1dd0634ec228cbd20ed544299b",
+      "role": "accepted validation or plotting implementation; author license pending",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: paths/imports made package-relative; numerical/statistical design retained."
+      ],
+      "bytes": 1673,
+      "candidate_sha256": "c93d4f0f16644f48fc52b95e0197a7db0defd20ba4ef5fb6c47000dd0ed6faa5"
+    },
+    {
+      "path": "figures/input_schemas.json",
+      "source": null,
+      "source_sha256": null,
+      "role": "candidate documentation/schema/dependency versions",
+      "changes": [
+        "New main-figure candidate support file; no subject rows or private identifiers."
+      ],
+      "bytes": 25673,
+      "candidate_sha256": "848048a81df162d2ffef50af8c5d70cd9ec3022b96a60c6792b6caf745444692"
+    },
+    {
+      "path": "figures/INPUTS.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "main-only input schemas, tensor shapes and dependency closure",
+      "changes": [
+        "Delivery correction: missing INPUTS.md now saved and read back; no scientific code or data changed.",
+        "2026-10-03: documented Fig3 legacy-truth hold and incomplete v13 public migration.",
+        "2026-10-06: final code-package audit and current-source contract update.",
+        "2026-10-07: parameter-model inclusion, current-port documentation or small verification update; no fitted values changed.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "bytes": 12167,
+      "candidate_sha256": "b73c06df150d082770ccd6a24a0e6e50f849481159a1a23db7f90f8c0e99ca86"
+    },
+    {
+      "path": "figures/paths.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "offline synthetic/contract check or path configuration",
+      "changes": [
+        "New main-figure candidate support file; no subject rows or private identifiers."
+      ],
+      "bytes": 993,
+      "candidate_sha256": "cc0ab1073392e1b3699fa06233d73cf4e638e57bcc6866dfdcb66b8631b88b58"
+    },
+    {
+      "path": "figures/validation_smoke.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "validation implementation, documentation, or synthetic package check",
+      "changes": [
+        "2026-10-08: minimal accepted-validation migration; externalized inputs/outputs only.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "bytes": 3689,
+      "candidate_sha256": "ec3c5a51be6a06c634f9a752620613eb07a26a48c0c7fe4c454f6c9394ad750d"
+    },
+    {
+      "path": "models/hcp150_example.mat",
+      "source": null,
+      "source_sha256": null,
+      "role": "authorized validated exact_hodge_v1 numeric-only example; private source mapping external",
+      "changes": [
+        "First available HCP fold by filename per resolution; no performance selection. Private source correspondence retained outside this package.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "b4bb76dca531bc15eb8548a0123985eff6cc6637df372bf70e6cd59cbf9b632c",
+      "bytes": 68083,
+      "model_version": "exact_hodge_v1",
+      "parameter_format": "hodge_sde_parameters_v1",
+      "channel_order": [
+        "Sym",
+        "Grad",
+        "Curl",
+        "Harm_exact"
+      ]
+    },
+    {
+      "path": "models/hcp250_example.mat",
+      "source": null,
+      "source_sha256": null,
+      "role": "authorized validated exact_hodge_v1 numeric-only example; private source mapping external",
+      "changes": [
+        "First available HCP fold by filename per resolution; no performance selection. Private source correspondence retained outside this package.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "9332ffb08d06b68762ce83e081670a1a6992114147eee0c1a903595c942d29d6",
+      "bytes": 187239,
+      "model_version": "exact_hodge_v1",
+      "parameter_format": "hodge_sde_parameters_v1",
+      "channel_order": [
+        "Sym",
+        "Grad",
+        "Curl",
+        "Harm_exact"
+      ]
+    },
+    {
+      "path": "models/hcp450_example.mat",
+      "source": null,
+      "source_sha256": null,
+      "role": "authorized validated exact_hodge_v1 numeric-only example; private source mapping external",
+      "changes": [
+        "First available HCP fold by filename per resolution; no performance selection. Private source correspondence retained outside this package.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "27fc3b35af81ac538576d56e45673156bf1cbd267f122187355adcc8a24f341b",
+      "bytes": 598681,
+      "model_version": "exact_hodge_v1",
+      "parameter_format": "hodge_sde_parameters_v1",
+      "channel_order": [
+        "Sym",
+        "Grad",
+        "Curl",
+        "Harm_exact"
+      ]
+    },
+    {
+      "path": "models/README.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [
+        "2026-10-14: validated exact_hodge_v1 training core; historical models and figure inputs retained separately.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "0365924b5f44077ba72992edc704f2fcb285e51f5dbec4692b3f36cc95f1a8f8",
+      "bytes": 3028
+    },
+    {
+      "path": "README.md",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "New candidate documentation or synthetic demonstration; no subject data.",
+        "2026-10-06: final code-package audit and current-source contract update.",
+        "2026-10-07: parameter-model inclusion, current-port documentation or small verification update; no fitted values changed.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-14: validated exact_hodge_v1 training core; historical models and figure inputs retained separately.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "role": "candidate documentation",
+      "candidate_sha256": "3d75f958c53330f1617852949a0ea724c68d10d6f4cc7f977ee80f45f06f67cb",
+      "bytes": 6254
+    },
+    {
+      "path": "README_zh.md",
+      "source": null,
+      "source_sha256": null,
+      "role": "candidate documentation/schema/dependency versions",
+      "changes": [
+        "New main-figure candidate support file; no subject rows or private identifiers.",
+        "2026-10-06: final code-package audit and current-source contract update.",
+        "2026-10-07: parameter-model inclusion, current-port documentation or small verification update; no fitted values changed.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-14: validated exact_hodge_v1 training core; historical models and figure inputs retained separately.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "bytes": 6029,
+      "candidate_sha256": "d4c1df89a7107cdef5027fd347d255ebaa59827a183c51bbb21665d025f65009"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "source": null,
+      "source_sha256": null,
+      "role": "candidate documentation/schema/dependency versions",
+      "changes": [
+        "New main-figure candidate support file; no subject rows or private identifiers.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "bytes": 272,
+      "candidate_sha256": "b0810190a8d21d96008b61761d1adf188c83f222b9ddda7e4719f642c04cf7e0"
+    },
+    {
+      "path": "src/audit_segment_status.m",
+      "source": "Paper_Figures/Fig2/v5_evaluation_audit/audit_segment_status.m",
+      "source_sha256": "83ff29e7734d17a3b5653891a1276b34301c293ff9601eef153bf590e9827406",
+      "changes": [
+        "No content changes intended; apply_patch may normalize text line endings."
+      ],
+      "role": "runnable evaluation core",
+      "candidate_sha256": "83ff29e7734d17a3b5653891a1276b34301c293ff9601eef153bf590e9827406",
+      "bytes": 2056
+    },
+    {
+      "path": "src/compute_dynamics_metrics.m",
+      "source": "rest-system-id-main/System_ID_methods/compute_dynamics_metrics.m",
+      "source_sha256": "1a36be31369f3adbf0d5aa57b68868cfddce743f9629efff4dc0241ccc911c06",
+      "changes": [
+        "No content changes intended; apply_patch may normalize text line endings.",
+        "2026-10-07: parameter-model inclusion, current-port documentation or small verification update; no fitted values changed."
+      ],
+      "role": "runnable evaluation core",
+      "candidate_sha256": "47ac021b21e9277f348e34cd332d3d385ad85345cd80dff4168d9e9e39f0fa09",
+      "bytes": 21291
+    },
+    {
+      "path": "src/export_hodge_parameters.m",
+      "source": "rest-system-id-main/System_ID_methods/generate_free_run_fold.m",
+      "source_sha256": "04eaa557749f7dc5876bd1e659b4c465257a680a1b002450a7bf51f0d131db7f",
+      "role": "package support or parameter example",
+      "changes": [
+        "Numerical-field whitelist and parameter-only Hodge simulation; verified exact source-trajectory parity at three resolutions."
+      ],
+      "candidate_sha256": "1fbbe53e06db923b0789bd1a702473dc8e5fc7a707d5ceb76da37e4a04ccc254",
+      "bytes": 2314
+    },
+    {
+      "path": "src/generate_free_run_fold.m",
+      "source": "rest-system-id-main/System_ID_methods/generate_free_run_fold.m",
+      "source_sha256": "04eaa557749f7dc5876bd1e659b4c465257a680a1b002450a7bf51f0d131db7f",
+      "changes": [
+        "No content changes intended; apply_patch may normalize text line endings."
+      ],
+      "role": "core model source; training/generation requires unbundled third-party dependencies",
+      "candidate_sha256": "04eaa557749f7dc5876bd1e659b4c465257a680a1b002450a7bf51f0d131db7f",
+      "bytes": 14562
+    },
+    {
+      "path": "src/hlgsde_clear_hodge_path.m",
+      "source": "rest-system-id-main/System_ID_methods/hlgsde_clear_hodge_path.m",
+      "source_sha256": "5b8382d0c3621d13d7c1f642c528800542bd608a28cbe5d9f3e11edf1005291c",
+      "changes": [
+        "Dependency lookup only: candidate/external/hodge-main; remove parent-workspace fallback."
+      ],
+      "role": "core model source; training/generation requires unbundled third-party dependencies",
+      "candidate_sha256": "df217cf6bb58eb6f3a694b0b6902a4665ea11bd3a89b99d1b28c28d64b93c130",
+      "bytes": 1163
+    },
+    {
+      "path": "src/hlgsde_exact_hodge.m",
+      "source": "rest-system-id-main/System_ID_methods/hlgsde_exact_hodge.m",
+      "source_sha256": "fef05a8200a5d63a5e7c6ebd98fb0e16200d43c4c96bf85db6f9d0df7abed704",
+      "role": "validated sparse Hodge projection used by new training",
+      "changes": [
+        "2026-10-14: validated exact_hodge_v1 training core; historical models and figure inputs retained separately."
+      ],
+      "candidate_sha256": "fef05a8200a5d63a5e7c6ebd98fb0e16200d43c4c96bf85db6f9d0df7abed704",
+      "bytes": 6545
+    },
+    {
+      "path": "src/nonlinear_HLGSDE.m",
+      "source": "rest-system-id-main/System_ID_methods/nonlinear_HLGSDE.m",
+      "source_sha256": "9e9616c0ef0ca888dfdfd24cf21e0629aebee6bdd91787b5f4cf66e4a2b44205",
+      "changes": [
+        "Dependency lookup only: use candidate/external/rest-system-id/Utilities and candidate/external/hodge-main; remove parent-workspace fallback. No scientific formula changes.",
+        "2026-10-14: validated exact_hodge_v1 training core; historical models and figure inputs retained separately."
+      ],
+      "role": "core model source; training/generation requires unbundled third-party dependencies",
+      "candidate_sha256": "4097e4510df6a6c2432d607d094c20c870260f6017d2e71afcf0c4a76908a59e",
+      "bytes": 38422,
+      "previous_source_sha256": "9efa41000bf5050f03c453d3361eb79713c65e5a825acf7e22394afed1f1650d"
+    },
+    {
+      "path": "src/rescore_whiteness_nbe.m",
+      "source": "audits/20261002_fig2_commonfold/run_whiteness_nbe_summary.m",
+      "source_sha256": "346bb4ca277261f1bf5ad9d34b421a760c7c82113cb8be7d704ed2a69226d116",
+      "role": "Fig2 NBE cached-Q five-fold reaggregation adapter; third-party loader excluded",
+      "changes": [
+        "2026-10-06: adapted project wrapper to caller-supplied tables and fold directory; retains nine-model, five-fold, old-cache parity and ratio-of-means guards; no data or third-party implementation."
+      ],
+      "candidate_sha256": "f8d885b1cab716dd692fd00fd0eaf96359179a378a21093098b9e5829f198263",
+      "bytes": 3570
+    },
+    {
+      "path": "src/score_free_run_by_fold.m",
+      "source": "Paper_Figures/Fig2/v5_evaluation_audit/score_free_run_by_fold.m",
+      "source_sha256": "04bd16c17b11024a805548f497a3e022fc09c851fe59dfbbc5bb2881efec52f3",
+      "changes": [
+        "No content changes intended; apply_patch may normalize text line endings."
+      ],
+      "role": "runnable evaluation core",
+      "candidate_sha256": "04bd16c17b11024a805548f497a3e022fc09c851fe59dfbbc5bb2881efec52f3",
+      "bytes": 5203
+    },
+    {
+      "path": "src/simulate_hodge_parameters.m",
+      "source": "rest-system-id-main/System_ID_methods/generate_free_run_fold.m",
+      "source_sha256": "04eaa557749f7dc5876bd1e659b4c465257a680a1b002450a7bf51f0d131db7f",
+      "role": "package support or parameter example",
+      "changes": [
+        "Numerical-field whitelist and parameter-only Hodge simulation; verified exact source-trajectory parity at three resolutions."
+      ],
+      "candidate_sha256": "2ab00ae01c9dc0edf6323025c027debfa835beb2563e63052a60fc93cc43385f",
+      "bytes": 2360
+    },
+    {
+      "path": "test_parameter_export.m",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [],
+      "candidate_sha256": "94862e69eb78528b92fd2bb13ad97deaf3ae043f4d57383f1b12220437ad767e",
+      "bytes": 1547
+    },
+    {
+      "path": "test_whiteness_synthetic.m",
+      "source": null,
+      "source_sha256": null,
+      "role": "in-memory MATLAB synthetic contract check",
+      "changes": [
+        "2026-10-06: new synthetic ratio-of-means and cache/source mismatch test."
+      ],
+      "candidate_sha256": "22ebf724ea6e548c51d725205f01c3436b304a0955e70c18bf98edd9591c5d72",
+      "bytes": 1387
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "New candidate documentation or synthetic demonstration; no subject data.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update."
+      ],
+      "role": "candidate documentation",
+      "candidate_sha256": "c06e273a33c3ad2e573a90fc9ea6957618f83d3b0fcba4e099c836916dad9922",
+      "bytes": 3480
+    },
+    {
+      "path": "VALIDATION.md",
+      "source": null,
+      "source_sha256": null,
+      "changes": [
+        "New candidate documentation or synthetic demonstration; no subject data.",
+        "2026-10-06: final code-package audit and current-source contract update.",
+        "2026-10-07: parameter-model inclusion, current-port documentation or small verification update; no fitted values changed.",
+        "2026-10-08: validation-package contract, dependency, or synthetic-check update.",
+        "2026-10-14: validated exact_hodge_v1 training core; historical models and figure inputs retained separately.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved.",
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "role": "candidate documentation",
+      "candidate_sha256": "8045b5006ae9ed41715c7e1cbebb65ff29d760ba0fdb52cb21b1e556b7fba7ee",
+      "bytes": 19168
+    },
+    {
+      "path": "verify_package.py",
+      "source": null,
+      "source_sha256": null,
+      "role": "package support or parameter example",
+      "changes": [
+        "2026-10-16: exact main-core synchronization; external inputs only; formal computation locks preserved."
+      ],
+      "candidate_sha256": "49822070ac6e01b42c270593dbc66baa3d28be4b459dc316a40e381034767c9a",
+      "bytes": 2528
+    }
+  ],
+  "upstream_fig2_commonfold_fix_incorporated": true,
+  "file_count_including_manifest": 130,
+  "hashed_file_count_excluding_manifest": 129,
+  "hashed_bytes_excluding_manifest": 1774541,
+  "validation": "2026-10-14: exact projection passed 19 dense-SVD oracle cases and 6 source/package public-fit tests; historical validations retained in VALIDATION.md. Full-cohort exact refits and figure replacement remain separate.",
+  "scientific_change_scope": "New training uses exact_hodge_v1 with numerical acceptance checks and explicit zero-component handling. Fitting/noise/preprocessing specifications are otherwise unchanged. Bundled examples and existing figure inputs remain historical; no numerical relabelling.",
+  "audit_update": {
+    "date": "2026-10-14",
+    "status": "EXACT_TRAINING_CORE_MIGRATED_DOWNSTREAM_RESULTS_PENDING",
+    "fitted_models_retrained": false,
+    "parameters_tuned_for_outcome": false,
+    "pending": [
+      "Full-cohort exact fits, evaluations and version-aligned main-figure analyses.",
+      "External data/assets and lawfully acquired dependency implementations.",
+      "Author licensing, parameter-redistribution terms and clean-environment full reproduction before publication."
+    ]
+  },
+  "fitted_model_scope": {
+    "count": 3,
+    "roi": [
+      150,
+      250,
+      450
+    ],
+    "population_model_archive": false,
+    "decomposition": "historical_original_not_exact_hodge_v1"
+  },
+  "migration_changes_scientific_settings": true,
+  "synchronization_changes_scientific_algorithms": false,
+  "main_core_versions": {
+    "fig2": "v12",
+    "fig3": "exact_estimator_v2",
+    "fig4": "v10",
+    "fig5": "v18",
+    "fig6": "v15/exact_disease_v2"
+  },
+  "supplementary_final_count": 44,
+  "supplementary_code_scope": "main cores only; historical SI entrypoints keep branch numbers",
+  "formal_computation_lock": "figures/fig6/COMPUTATION_LOCK.json"
+}
